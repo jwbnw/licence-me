@@ -5,108 +5,162 @@
  * IDL can be found at `target/idl/licence_me.json`.
  */
 export type LicenceMe = {
-  address: 'HvR3wzpj2MCnS4jgCTqHiZE4fGaM3w9BBAtA7UvCWTS6';
-  metadata: {
-    name: 'licenceMe';
-    version: '0.1.0';
-    spec: '0.1.0';
-    description: 'Created with Anchor';
-  };
-  instructions: [
+  "address": "HvR3wzpj2MCnS4jgCTqHiZE4fGaM3w9BBAtA7UvCWTS6",
+  "metadata": {
+    "name": "licenceMe",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Created with Anchor"
+  },
+  "instructions": [
     {
-      name: 'close';
-      discriminator: [98, 165, 201, 177, 108, 65, 206, 96];
-      accounts: [
+      "name": "close",
+      "discriminator": [
+        98,
+        165,
+        201,
+        177,
+        108,
+        65,
+        206,
+        96
+      ],
+      "accounts": [
         {
-          name: 'payer';
-          writable: true;
-          signer: true;
+          "name": "payer",
+          "writable": true,
+          "signer": true
         },
         {
-          name: 'licenceMe';
-          writable: true;
+          "name": "licenceMe",
+          "writable": true
         }
-      ];
-      args: [];
+      ],
+      "args": []
     },
     {
-      name: 'decrement';
-      discriminator: [106, 227, 168, 59, 248, 27, 150, 101];
-      accounts: [
+      "name": "decrement",
+      "discriminator": [
+        106,
+        227,
+        168,
+        59,
+        248,
+        27,
+        150,
+        101
+      ],
+      "accounts": [
         {
-          name: 'licenceMe';
-          writable: true;
+          "name": "licenceMe",
+          "writable": true
         }
-      ];
-      args: [];
+      ],
+      "args": []
     },
     {
-      name: 'increment';
-      discriminator: [11, 18, 104, 9, 104, 174, 59, 33];
-      accounts: [
+      "name": "increment",
+      "discriminator": [
+        11,
+        18,
+        104,
+        9,
+        104,
+        174,
+        59,
+        33
+      ],
+      "accounts": [
         {
-          name: 'licenceMe';
-          writable: true;
+          "name": "licenceMe",
+          "writable": true
         }
-      ];
-      args: [];
+      ],
+      "args": []
     },
     {
-      name: 'initialize';
-      discriminator: [175, 175, 109, 31, 13, 152, 155, 237];
-      accounts: [
+      "name": "initialize",
+      "discriminator": [
+        175,
+        175,
+        109,
+        31,
+        13,
+        152,
+        155,
+        237
+      ],
+      "accounts": [
         {
-          name: 'payer';
-          writable: true;
-          signer: true;
+          "name": "payer",
+          "writable": true,
+          "signer": true
         },
         {
-          name: 'licenceMe';
-          writable: true;
-          signer: true;
+          "name": "licenceMe",
+          "writable": true,
+          "signer": true
         },
         {
-          name: 'systemProgram';
-          address: '11111111111111111111111111111111';
+          "name": "systemProgram",
+          "address": "11111111111111111111111111111111"
         }
-      ];
-      args: [];
+      ],
+      "args": []
     },
     {
-      name: 'set';
-      discriminator: [198, 51, 53, 241, 116, 29, 126, 194];
-      accounts: [
+      "name": "set",
+      "discriminator": [
+        198,
+        51,
+        53,
+        241,
+        116,
+        29,
+        126,
+        194
+      ],
+      "accounts": [
         {
-          name: 'licenceMe';
-          writable: true;
+          "name": "licenceMe",
+          "writable": true
         }
-      ];
-      args: [
+      ],
+      "args": [
         {
-          name: 'value';
-          type: 'u8';
+          "name": "value",
+          "type": "u8"
         }
-      ];
+      ]
     }
-  ];
-  accounts: [
+  ],
+  "accounts": [
     {
-      name: 'licenceMe';
-      discriminator: [135, 64, 223, 168, 233, 143, 162, 215];
+      "name": "licenceMe",
+      "discriminator": [
+        14,
+        74,
+        113,
+        6,
+        76,
+        131,
+        203,
+        255
+      ]
     }
-  ];
-  types: [
+  ],
+  "types": [
     {
-      name: 'licenceMe';
-      type: {
-        kind: 'struct';
-        fields: [
+      "name": "licenceMe",
+      "type": {
+        "kind": "struct",
+        "fields": [
           {
-            name: 'count';
-            type: 'u8';
+            "name": "count",
+            "type": "u8"
           }
-        ];
-      };
+        ]
+      }
     }
-  ];
+  ]
 };

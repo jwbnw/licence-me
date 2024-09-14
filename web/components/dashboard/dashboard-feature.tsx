@@ -16,10 +16,10 @@ const links: { label: string; href: string }[] = [
 export default function DashboardFeature() {
   return (
     <div>
-      <AppHero title="gm" subtitle="Say hi to your new Solana dApp." />
+      <AppHero title="Licence Me Beta" subtitle="Welcome to licence me, use the links at the top to view your account or licence a new image" />
       <div className="max-w-xl mx-auto py-6 sm:px-6 lg:px-8 text-center">
         <div className="space-y-2">
-          <p>Here are some helpful links to get you started.</p>
+          <p>First time here? below are some helpful links to get you started.</p>
           {links.map((link, index) => (
             <div key={index}>
               <a

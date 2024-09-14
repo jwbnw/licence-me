@@ -1005,6 +1005,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "licence-me"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+]
+
+[[package]]
 name = "light-poseidon"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1630,13 +1637,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.51",
-]
-
-[[package]]
-name = "licence-me"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
 ]
 
 [[package]]
